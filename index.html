@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haricharan | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #121212;
+      color: #f8f9fa;
+    }
+    section {
+      padding: 60px 0;
+    }
+    h2 {
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .navbar {
+      background: #1f1f1f !important;
+    }
+    .card {
+      background: #1c1c1c;
+      color: #fff;
+      border: none;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    }
+    .btn-primary {
+      background: #ff5722;
+      border: none;
+    }
+    .btn-primary:hover {
+      background: #e64a19;
+    }
+    .icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+      color: #ff9800;
+      transition: transform 0.3s;
+    }
+    .icon:hover {
+      transform: scale(1.2);
+      color: #ffc107;
+    }
+    footer {
+      background: #1f1f1f;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Haricharan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="text-light text-center py-5 mt-5">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Hi, I'm Haricharan 👋</h1>
+    <p class="lead">Web Developer | AI/ML Enthusiast</p>
+    <a href="#projects" class="btn btn-primary btn-lg mt-3">View My Work</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <div class="container text-center">
+    <h2>About Me</h2>
+    <p>I am a passionate developer who loves building web applications and working on AI/ML projects. Always eager to learn and implement new technologies.</p>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="bg-dark">
+  <div class="container text-center">
+    <h2>Skills</h2>
+    <div class="row g-4">
+      <div class="col-md-3">
+        <div class="card p-3 shadow-sm"><i class="fa-solid fa-code icon"></i>C / C++ / Java</div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3 shadow-sm"><i class="fa-brands fa-html5 icon"></i>HTML / CSS / JavaScript</div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3 shadow-sm"><i class="fa-brands fa-react icon"></i>React / Bootstrap</div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3 shadow-sm"><i class="fa-solid fa-database icon"></i>Flask / MySQL / MongoDB</div>
+      </div>
+      <div class="col-md-3">
+        <div class="card p-3 shadow-sm"><i class="fa-solid fa-brain icon"></i>AI / ML</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <div class="row g-4">
+      <!-- Project 1 -->
+      <div class="col-md-6">
+        <div class="card shadow-sm p-3">
+          <h5 class="card-title">Intern-Portal</h5>
+          <p class="card-text">A Flask + ML based web app that predicts diseases from symptoms. It also suggests precautions and remedies.</p>
+          <p><b>Skills:</b> Flask, Machine Learning, Random Forest, Bootstrap</p>
+          <a href="https://github.com/salavathhari" target="_blank" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-6">
+        <div class="card shadow-sm p-3">
+          <h5 class="card-title">Skin Disease Classifier</h5>
+          <p class="card-text">A deep learning project using MobileNetV2 to classify skin diseases from images with high accuracy.</p>
+          <p><b>Skills:</b> Python, TensorFlow, Keras, Deep Learning</p>
+          <a href="https://github.com/salavathhari" target="_blank" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="bg-dark">
+  <div class="container">
+    <h2 class="text-center">Contact</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form action="https://formspree.io/f/xjkonwar" method="POST">
+          <div class="mb-3">
+            <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" name="message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-3">
+  <p>© 2025 Haricharan | Built with ❤️</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
