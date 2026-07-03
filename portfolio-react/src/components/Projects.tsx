@@ -9,7 +9,6 @@ import {
   SiPostgresql,
   SiRedis,
   SiPython,
-  SiDocker,
   SiFastapi,
 } from 'react-icons/si'
 

@@ -21,10 +21,7 @@ import {
 } from 'react-icons/fi'
 import {
   SiReact,
-  SiTypescript,
-  SiTailwindcss,
   SiNodedotjs,
-  SiExpress,
   SiPostgresql,
   SiDocker,
 } from 'react-icons/si'

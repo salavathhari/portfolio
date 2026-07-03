@@ -22,13 +22,8 @@ import {
 } from 'react-icons/fi'
 import {
   SiReact,
-  SiTypescript,
   SiNodedotjs,
-  SiMongodb,
-  SiRedis,
   SiDocker,
-  SiTailwindcss,
-  SiNginx,
 } from 'react-icons/si'
 
 const coreFeatures = [
